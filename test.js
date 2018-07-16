@@ -35,8 +35,10 @@ try{
 
 try{
   assert(xPerms('X01XX10XXXX1X0XXX1XXXXXX'), 'Many wildcards should not crash');
-  //This Test fails! out of memory. Need to refactor to use a stream/ buffer
-  //assert(xPerms('X01XX10XXXX1X0XXX1XXXXXXXXXXXXXXXXXXXXXXXX'))
+  //This Test fails! out of memory. Potentially refactor to use streams
+  //assert(xPerms('X01XX10XXXX1X0XXX1XXXXXXXXXXXXXXXXX'))
 } catch (err){
   console.log('Tests failed for performance checks, please resolve:', err.message )
 }
+
+console.log('all tests passed')
