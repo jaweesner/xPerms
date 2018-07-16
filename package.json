@@ -1,0 +1,14 @@
+{
+  "name": "xpermutation",
+  "version": "1.0.0",
+  "description": "program finds all permutations of a string where 'X' characters are replaced with 1s and 0s",
+  "main": "xPerms.js",
+  "bin": {
+    "xPerms": "xPerms.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
